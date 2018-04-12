@@ -1,6 +1,6 @@
 {
   "name": "@littleq/template-loader-lite",
-  "version": "0.0.2-0",
+  "version": "0.0.2-1",
   "description": "Template loader lite for loading templates according to the pattern given",
   "main": "template-loader-lite.js",
   "scripts": {

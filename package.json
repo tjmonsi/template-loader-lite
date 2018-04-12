@@ -1,0 +1,19 @@
+{
+  "name": "@littleq/template-loader-lite",
+  "version": "0.0.2-0",
+  "description": "Template loader lite for loading templates according to the pattern given",
+  "main": "template-loader-lite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmonsi/template-loader-lite.git"
+  },
+  "author": "TJ Monserrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmonsi/template-loader-lite/issues"
+  },
+  "homepage": "https://github.com/tjmonsi/template-loader-lite#readme"
+}

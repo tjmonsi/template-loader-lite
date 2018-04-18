@@ -42,7 +42,7 @@ class TemplateLoaderLite extends window.HTMLElement {
   
   _patternChanged (pattern) {
     if (!pattern) return;
-    const template = this.querySelector(`template[pattern=${pattern}]`);
+    const template = this.querySelector(`template[pattern="${pattern}"]`);
     if (template) {
       this.template = template;
       Promise.resolve().then(() => {

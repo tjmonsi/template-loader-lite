@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tjmonsi/template-loader-lite/issues"
   },
-  "homepage": "https://github.com/tjmonsi/template-loader-lite#readme"
+  "homepage": "https://github.com/tjmonsi/template-loader-lite#readme",
+  "files": [
+    "template-loader-lite.js"  
+  ]
 }

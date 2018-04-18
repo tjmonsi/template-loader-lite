@@ -24,7 +24,9 @@ class TemplateLoaderLite extends window.HTMLElement {
   
   connectedCallback () {
     this.__patternInitialized = true;
-    this._patternChanged(this.pattern || this.getAttribute('pattern'));
+    if (this.pattern || this.getAttribute('pattern')) {
+      this._patternChanged(this.pattern || this.getAttribute('pattern'));  
+    }
   }
   
   set pattern (pattern) {
@@ -39,6 +41,7 @@ class TemplateLoaderLite extends window.HTMLElement {
   }
   
   _patternChanged (pattern) {
+    if (!pattern) return;
     const template = this.querySelector(`template[pattern=${pattern}]`);
     if (template) {
       this.template = template;
